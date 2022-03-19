@@ -28,33 +28,33 @@ struct ContentView: View {
                 VStack{
         // الحالة الأولى
                 // الاسم
-               Text("")
+                    Text("\(people[0].fullname)")
 // المنطقة
-                Text("")
+                    Text("\(people[0].area)")
                     // عدد الجرعات
-               Text("")
+               Text("\(people[0].numberofdoses)")
 
                 Divider()
                 }
                 VStack{
         // الحالة الثانية
                 // الاسم
-               Text("")
+               Text("\(people[1].fullname)")
                 // المنطقة
-               Text("")
+               Text("\(people[1].area)")
     // عدد الجرعات
-               Text("")
+               Text("\(people[1].numberofdoses)")
 
                 Divider()
                 }
                 VStack{
               // الحالة الثالثة
                       // الاسم
-                     Text("")
+                     Text("\(people[2].fullname)")
                       // المنطقة
-                     Text("")
+                     Text("\(people[2].area)")
           // عدد الجرعات
-                     Text("")
+                     Text("\(people[2].numberofdoses)")
                 }
                 Spacer()
                 HStack{
@@ -77,6 +77,7 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
 
 
 
